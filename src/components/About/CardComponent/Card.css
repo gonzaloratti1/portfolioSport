@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .card img {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .card-text {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .card-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text p {
+    font-size: 16px;
+    line-height: 1.5;
+  }

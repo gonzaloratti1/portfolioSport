@@ -1,0 +1,19 @@
+.imageCard {
+  height: auto;
+  width: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}

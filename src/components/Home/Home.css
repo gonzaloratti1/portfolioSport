@@ -8,7 +8,8 @@ justify-content: center;
 .home__content {
   display: grid;
   grid-template-columns: 116px repeat(2, 1fr);
-  padding-top: 5.5rem;
+  padding-top: 11rem;
+  padding-bottom: 11rem;
   column-gap: 2rem;
   justify-content: center;
   align-items: center;

@@ -1,21 +1,23 @@
 import React from 'react'
 import "./About.css"
-import AboutImg from "../../assets/about.jpg"
-import CV from "../../assets/John-Cv.pdf"
 import Info from './Info'
+import CardComponents from './CardComponent/CardComponents'
+// import CV from "../../assets/CVHugo.pdf"
 
 const About = () => {
   return (
-    <section className='about section' id='about'>
-      <h2 className='section__title'>Experiencia</h2>
-      <span className='section_subtitle'>Mi introduccion</span>
+    <section className='about__section' id='about'>
+      <h1 className='section__title'>Experiencia</h1>
+      <span className='section__subtitle'>Como Director Tecnico</span>
+
+
 
       <div className='about__container container grid'>
-        <img src={AboutImg} alt="" className='about_img' />
+        <CardComponents/>
         <div className='about_data'>
           <Info />
           <p className='about_description'>Entrenador con experiencia en Club Atletico Ituzaingo</p>
-          <a  href={CV} className="button button--flex">
+          {/* <a  href={CV} className="button button--flex">
             Descargar CV
             <svg
                 class="button__icon"
@@ -42,7 +44,7 @@ const About = () => {
                   fill="var(--container-color)"
                 ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

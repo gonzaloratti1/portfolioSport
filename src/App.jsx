@@ -1,10 +1,9 @@
 import './App.css'
 import About from './components/About/About'
-import Contact from './components/Contact/Contact'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
-import Qualification from './components/Qualification/Qualification'
 import Footer from './components/Footer/Footer'
+import PlayerExp from './components/JugExperience/PlayerExp'
 
 function App() {
 
@@ -15,6 +14,7 @@ function App() {
       <div className='main'>
         <Home />
         <About />
+        <PlayerExp/>
         {/* Diplomas */}
         {/* <Qualification/> */}
         {/* FOTOS */}
